@@ -1,0 +1,84 @@
+body{
+	background-color:rgb(65, 65, 65);	
+	font-family: sans-serif;
+}
+
+.judul ul h1 b {
+	float:left;
+}
+
+
+.menu{
+float: right;
+color: white;
+padding: 20px 20px;
+display: block;
+text-align: center;
+padding: 14px 16px;
+}
+
+.menu ul {
+	list-style:none;
+	overflow: hidden;
+}
+
+
+.menu ul li {
+	float:left;		
+	text-transform:uppercase;
+}
+
+.menu ul li a {
+	display:block;	
+	padding:0 20px;
+	text-decoration:none;
+	color:white;
+	font-family: sans-serif;
+	font-size:13px;
+	font-weight:400;
+	transition:all 0.3s ease-in-out;
+}
+
+.menu ul li a:hover,
+.menu ul li a.hoverover {	
+	cursor: pointer;	
+	color:#fff;
+}
+
+
+.film{
+    margin-left: 30px;
+}
+
+.row {
+    display: flex;
+ 
+}
+
+.column {
+    flex: 10%;
+    padding-left: 30px;
+  
+}
+
+.gambar {
+    width: 33%;
+    height: 90%;
+    margin-left: 250px;
+}
+
+.keterangan {
+    flex: 10%;
+    padding-right: 70px;
+    line-height:1.5;
+}
+
+.submit {
+    background-color: rgba(255, 81, 0, 0.925);
+    border-radius: 50px;
+    color: white;
+    padding: 10px 90px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 15px;
+}
